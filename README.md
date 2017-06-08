@@ -52,7 +52,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 		> ng serve
 
-> La primera vez la ejecusión debe transpilar todo el código fuente, por lo que puede demorar algunos minutos, luego la transpilación se hará mucho más rápido
+> La primera vez la ejecución debe transpilar todo el código fuente, por lo que puede demorar algunos minutos, luego la transpilación se hará mucho más rápido
 
 ---
 ## Conclusión
