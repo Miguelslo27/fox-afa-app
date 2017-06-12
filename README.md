@@ -41,7 +41,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 1. Clonar el repositorio
 
-
 		> git clone https://github.com/Miguelslo27/fox-afa-app.git
 
 2. Correr la instalación de paquetes
