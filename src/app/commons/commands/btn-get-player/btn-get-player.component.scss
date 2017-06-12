@@ -1,0 +1,30 @@
+$color: #ddd;
+$size: 42px;
+$line-height: 36px;
+$border: 3px solid $color;
+$black-transp-50: rgba(0,0,0,.5);
+
+.get-player {
+  width: $size;
+  height: $size;
+  border: $border;
+  border-radius: 50%;
+  line-height: $line-height;
+  background-color: $black-transp-50;
+
+  .icon {
+    color: $color;
+
+    .size-s {
+      font-size: 14px;
+    }
+
+    .size-m {
+      font-size: 24px;
+    }
+
+    .size-l {
+      font-size: 32px;
+    }
+  }
+}

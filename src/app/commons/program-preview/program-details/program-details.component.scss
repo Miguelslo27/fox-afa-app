@@ -1,0 +1,26 @@
+@mixin basic-linear-gradient($fromColor, $toCollor, $rotation) {
+  background: -moz-linear-gradient($rotation, $fromColor 0%, $toCollor 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $fromColor), color-stop(100%, $toCollor));
+  background: -webkit-linear-gradient($rotation, $fromColor 0%, $toCollor 100%);
+  background: -o-linear-gradient($rotation, $fromColor 0%, $toCollor 100%);
+  background: -ms-linear-gradient($rotation, $fromColor 0%, $toCollor 100%);
+  background: linear-gradient($rotation, $fromColor 0%, $toCollor 100%);
+}
+
+.details {
+  padding: 15px;
+
+  @include basic-linear-gradient(rgba(0,0,0,0.7), rgba(255,255,255,0), 0deg);
+
+  .badge-primary {
+    padding: 10px;
+  }
+
+  h3.program-title {
+    margin: 0;
+    margin-top: 5px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+  }
+}

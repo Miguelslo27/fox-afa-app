@@ -4,10 +4,22 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ProgramPreviewComponent } from './commons/program-preview/program-preview.component';
+import { LiveComponent } from './live/live.component';
+import { ProgrammingComponent } from './programming/programming.component';
+import { PlayerComponent } from './player/player.component';
+import { BtnGetPlayerComponent } from './commons/commands/btn-get-player/btn-get-player.component';
+import { ProgramDetailsComponent } from './commons/program-preview/program-details/program-details.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProgramPreviewComponent,
+    LiveComponent,
+    ProgrammingComponent,
+    PlayerComponent,
+    BtnGetPlayerComponent,
+    ProgramDetailsComponent
   ],
   imports: [
     BrowserModule,
