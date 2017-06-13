@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-live',
+  selector: 'live',
   templateUrl: './live.component.html',
   styleUrls: ['./live.component.scss']
 })

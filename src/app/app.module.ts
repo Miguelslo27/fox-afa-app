@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { ROUTING } from './app.routes';
 
 import { AppComponent } from './app.component';
 import { ProgramPreviewComponent } from './commons/program-preview/program-preview.component';
@@ -24,7 +25,8 @@ import { ProgramDetailsComponent } from './commons/program-preview/program-detai
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
