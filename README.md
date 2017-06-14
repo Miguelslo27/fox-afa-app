@@ -37,7 +37,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * [NodeJS](https://nodejs.org/en/) (Descargar la versión LTS)
 * [Angular CLI](https://www.npmjs.com/package/@angular/cli): npm install -g @angular/cli
 
-### Configuración de Entorno:
+### Configuración de Entorno:-
 
 1. Clonar el repositorio
 
