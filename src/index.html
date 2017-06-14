@@ -1,14 +1,43 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>AfaApp</title>
+  <title>FOX Sports - APP</title>
   <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Main Fox Sports CSS -->
+  <link rel="stylesheet" href="https://cdn.foxsportsla.com/foxsports/live/styles/main.css">
 </head>
 <body>
+  
+  <!-- Header -->
+  <section class="header-container fixed-top">
+    <div class="header-fix-over-iframes">
+      <header class="header-main">
+        <a class="logo" href="https://www.foxsports.com.ar/"><span class="screenreader">FOX Sports</span></a>
+        <h1 class="header-title-mobile"></h1>
+        <nav class="header-main-nav">
+          <ul>
+            <li class="item"><a href="#">En Vivo</a></li>
+            <li class="item"><a href="#" class="has-submenu">Noticias</a></li>
+            <li class="item"><a href="#">Programación</a></li>
+            <li class="item"><a href="#" class="has-submenu">Competencias</a></li>
+            <li class="item"><a href="#" class="has-submenu">Equipos</a></li>
+            <li class="item"><a href="#">Videos</a></li>
+            <li class="item"><a href="#">Galerías</a></li>
+          </ul>
+        </nav>
+        <button class="toggle-sidebar"><i></i></button><button class="search-toggle-button trigger"><i class="icon icon-search"></i></button>
+        <div class="country-dropdown"><span class="sod_select " tabindex="0" data-cycle="false" data-links="false" data-links-external="false" data-placeholder-option="false" data-filter=""></span></div>
+      </header>
+    </div>
+  </section>
+
+  <!-- APP -->
   <app-root>Loading...</app-root>
+
 </body>
 </html>
