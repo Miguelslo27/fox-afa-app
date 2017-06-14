@@ -3,7 +3,7 @@ import { LiveComponent } from './live/live.component';
 import { ProgrammingComponent } from './programming/programming.component';
 import { PlayerComponent } from './player/player.component';
 
-const ROUTES:Routes = [
+const ROUTES: Routes = [
   {
     path: '',
     redirectTo: 'live',

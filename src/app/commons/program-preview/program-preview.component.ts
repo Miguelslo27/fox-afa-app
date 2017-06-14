@@ -7,9 +7,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProgramPreviewComponent implements OnInit {
 
-  @Input() thumbnail:string;
-  @Input() programTitle:string;
-  @Input() isLive:boolean;
+  @Input() thumbnail: string;
+  @Input() programTitle: string;
+  @Input() isLive: boolean;
 
   constructor() { }
 
